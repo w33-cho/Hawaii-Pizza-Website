@@ -1,0 +1,66 @@
+{
+  "pizzas": [
+    {
+      "id": "pizza-1",
+      "name": "Familiar 1350 g",
+      "description": "Tomate, mozzarella y agregados",
+      "price": 2000,
+      "image": "/pizza familiar.jpg",
+      "category": "pizzas"
+    },
+    {
+      "id": "pizza-2",
+      "name": "Personal 230 g",
+      "description": "Tomate, mozzarella y agregados",
+      "price": 350,
+      "image": "/pizza personal.jpg",
+      "category": "pizzas"
+    }
+    
+  ],
+  "bebidas": [
+    {
+      "id": "bebida-1",
+      "name": "Refresco 330 ml",
+      "description": "Coca-Cola, limón o naranja",
+      "price": 280,
+      "image": "/refresco.jpeg",
+      "category": "bebidas"
+    },
+    {
+      "id": "bebida-2",
+      "name": "Malta 330 ml",
+      "description": "Bebida nutritiva sin alcohol",
+      "price": 320,
+      "image": "/malta.jpeg",
+      "category": "bebidas"
+    },
+    {
+      "id": "bebida-3",
+      "name": "Jugo 200 ml",
+      "description": "Jugo de varios sabores ",
+      "price": 220,
+      "image": "/jugo.jpeg",
+      "category": "bebidas"
+    },
+    {
+      "id": "bebida-4",
+      "name": "Cerveza 330 ml",
+      "description": "Cerveza fría ",
+      "price": 270,
+      "image": "/cerveza.jpeg",
+      "category": "bebidas"
+    }
+    
+  ],
+  "espaguetis": [
+    {
+      "id": "espagueti-1",
+      "name": "Espagueti 320 g",
+      "description": "Pasta con salsa de carne molida y queso",
+      "price": 300,
+      "image": "/espaguetis.jpeg",
+      "category": "espaguetis"
+    }
+  ]
+}
