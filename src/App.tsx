@@ -109,7 +109,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50" style={{ backgroundImage: 'url(/bg.png)', backgroundRepeat: 'repeat', backgroundSize: 'auto' }}>
+    <div className="min-h-screen relative">
+      <div className="absolute inset-0 opacity-50" style={{ backgroundImage: 'url(/bg.png)', backgroundRepeat: 'repeat', backgroundSize: '800px 800px' }}></div>
+      <div className="relative z-10 min-h-screen" style={{ backgroundColor: 'rgba(249, 250, 251, 0.5)' }}>
       <Header
         activeSection={activeSection}
         onSectionChange={setActiveSection}
@@ -144,6 +146,7 @@ function App() {
         isOpen={isInfoOpen}
         onClose={() => setIsInfoOpen(false)}
       />
+      </div>
     </div>
   );
 }

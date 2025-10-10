@@ -41,7 +41,7 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
               🍕🍝 ¡Sabor que une! 🍻
             </p>
             <p className="text-lg">
-              Contamos con servicio a domicilio 🛵 para más información llamar a los teléfonos 53597272 - 55444746, será un placer atenderle 🙏🏼
+              Contamos con servicio a domicilio 🛵 para más información llamar a los teléfonos 53597272 - 55444746, será un placer atenderle 🙏🏼 de Lunes a Domingo: 9:00 AM - 6:00 PM
             </p>
           </div>
         </div>
