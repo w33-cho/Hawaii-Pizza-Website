@@ -28,6 +28,10 @@ export default function Cart({ isOpen, onClose, items, onAdd, onRemove }: CartPr
       alert('Por favor completa todos los campos');
       return;
     }
+    if (customerPhone.length !== 8) {
+      alert('El número de teléfono debe tener exactamente 8 dígitos');
+      return;
+    }
 
     const orderDetails = items
       .map((item) => `${item.quantity}x ${item.name} - $${item.price * item.quantity} CUP`)
@@ -122,7 +126,7 @@ export default function Cart({ isOpen, onClose, items, onAdd, onRemove }: CartPr
                   type="tel"
                   placeholder="Ej: 53597272"
                   value={customerPhone}
-                  onChange={(e) => setCustomerPhone(e.target.value.replace(/\D/g, ''))}
+                  onChange={(e) => setCustomerPhone(e.target.value.replace(/\D/g, '').slice(0, 8))}
                   className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-green-500 focus:outline-none"
                 />
 
