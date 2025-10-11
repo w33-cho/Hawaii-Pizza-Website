@@ -40,7 +40,7 @@
       "name": "Jugo 200 ml",
       "description": "Jugo de varios sabores ",
       "price": 220,
-      "image": "/jugo.jpeg",
+      "image": "/jugo.png",
       "category": "bebidas"
     },
     {
@@ -49,6 +49,22 @@
       "description": "Cerveza fría ",
       "price": 270,
       "image": "/cerveza.jpeg",
+      "category": "bebidas"
+    },
+    {
+      "id": "bebida-5",
+      "name": "Nectar 200 ml",
+      "description": "Nectar de Pera ",
+      "price": 250,
+      "image": "/nectar.png",
+      "category": "bebidas"
+    },
+    {
+      "id": "bebida-6",
+      "name": "Agua 330 ml",
+      "description": "Agua potable ",
+      "price": 100,
+      "image": "/agua.png",
       "category": "bebidas"
     }
     
