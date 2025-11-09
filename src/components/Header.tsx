@@ -21,8 +21,8 @@ export default function Header({ activeSection, onSectionChange, cartCount, onCa
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src='/1.png' alt='image' className='w-16 h-8 lg:w-32 lg:h-16'/>
-              <img src='/2.png' alt='image' className='w-20 h-8 lg:w-40 lg:h-16'>
+            <img src='/1.webp' alt='image' className='w-16 h-8 lg:w-32 lg:h-16'/>
+              <img src='/2.webp' alt='image' className='w-20 h-8 lg:w-40 lg:h-16'>
               </img>
 
           </div>

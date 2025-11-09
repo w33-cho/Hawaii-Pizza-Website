@@ -5,7 +5,7 @@
       "name": "Familiar 1350 g",
       "description": "Tomate, mozzarella y agregados",
       "price": 2000,
-      "image": "/pizza familiar.jpg",
+      "image": "/pizza familiar.webp",
       "category": "pizzas"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Personal 230 g",
       "description": "Tomate, mozzarella y agregados",
       "price": 350,
-      "image": "/pizza personal.jpg",
+      "image": "/pizza personal.webp",
       "category": "pizzas"
     }
     
@@ -24,7 +24,7 @@
       "name": "Refresco 330 ml",
       "description": "Coca-Cola, limón o naranja",
       "price": 280,
-      "image": "/refresco.jpeg",
+      "image": "/refresco.webp",
       "category": "bebidas"
     },
     {
@@ -32,7 +32,7 @@
       "name": "Malta 330 ml",
       "description": "Bebida nutritiva sin alcohol",
       "price": 320,
-      "image": "/malta.jpeg",
+      "image": "/malta.webp",
       "category": "bebidas"
     },
     {
@@ -40,7 +40,7 @@
       "name": "Jugo 200 ml",
       "description": "Jugo de varios sabores ",
       "price": 220,
-      "image": "/jugo.png",
+      "image": "/jugo.webp",
       "category": "bebidas"
     },
     {
@@ -48,7 +48,7 @@
       "name": "Cerveza 330 ml",
       "description": "Cerveza fría ",
       "price": 270,
-      "image": "/cerveza.jpeg",
+      "image": "/cerveza.webp",
       "category": "bebidas"
     },
     {
@@ -56,7 +56,7 @@
       "name": "Nectar 200 ml",
       "description": "Nectar de Pera ",
       "price": 250,
-      "image": "/nectar.png",
+      "image": "/nectar.webp",
       "category": "bebidas"
     },
     {
@@ -64,7 +64,7 @@
       "name": "Agua 330 ml",
       "description": "Agua potable ",
       "price": 100,
-      "image": "/agua.png",
+      "image": "/agua.webp",
       "category": "bebidas"
     }
     
@@ -75,7 +75,7 @@
       "name": "Espagueti 320 g",
       "description": "Pasta con salsa de carne molida y queso",
       "price": 300,
-      "image": "/espaguetis.jpeg",
+      "image": "/espaguetis.webp",
       "category": "espaguetis"
     }
   ]
