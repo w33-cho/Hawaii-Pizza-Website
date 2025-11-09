@@ -44,6 +44,7 @@ export default function ProductCard({ product, quantity, onAdd, onRemove }: Prod
                 <button
                   onClick={() => onRemove(product.id)}
                   className="bg-red-500 hover:bg-red-600 text-white p-2 rounded-lg transition-colors duration-200"
+                  aria-label={`Remover ${product.name} del carrito`}
                 >
                   <Minus className="w-4 h-4" />
                 </button>
@@ -53,6 +54,7 @@ export default function ProductCard({ product, quantity, onAdd, onRemove }: Prod
             <button
               onClick={() => onAdd(product)}
               className="bg-orange-500 hover:bg-orange-600 text-white p-2 rounded-lg transition-colors duration-200"
+              aria-label={`Agregar ${product.name} al carrito`}
             >
               <Plus className="w-4 h-4" />
             </button>

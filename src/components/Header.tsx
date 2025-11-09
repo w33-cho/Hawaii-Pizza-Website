@@ -47,6 +47,7 @@ export default function Header({ activeSection, onSectionChange, cartCount, onCa
             <button
               onClick={onInfoClick}
               className="bg-orange-500 hover:bg-orange-600 p-2 md:p-3 rounded-full transition-all duration-200 shadow-lg"
+              aria-label="Información"
             >
               <Info className="w-5 h-5 md:w-6 md:h-6" />
             </button>
@@ -54,6 +55,7 @@ export default function Header({ activeSection, onSectionChange, cartCount, onCa
             <button
               onClick={onLocationClick}
               className="bg-orange-500 hover:bg-orange-600 p-2 md:p-3 rounded-full transition-all duration-200 shadow-lg"
+              aria-label="Ubicación"
             >
               <MapPin className="w-5 h-5 md:w-6 md:h-6" />
             </button>
@@ -61,6 +63,7 @@ export default function Header({ activeSection, onSectionChange, cartCount, onCa
             <button
               onClick={onCartClick}
               className="relative bg-orange-500 hover:bg-orange-600 p-2 md:p-3 rounded-full transition-all duration-200 shadow-lg"
+              aria-label={`Carrito de compras${cartCount > 0 ? ` con ${cartCount} artículos` : ''}`}
             >
               <ShoppingCart className="w-5 h-5 md:w-6 md:h-6" />
               {cartCount > 0 && (
